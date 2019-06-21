@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.myapplication.MainActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txt_name"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:textColor="@color/testcolor"
+        />
+   <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txt_age"
+       android:hint="age"
+       android:inputType="number"
+        android:layout_height="wrap_content"
+       android:textColor="@color/testcolor"/>
+   <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/txt_address"
+       android:hint="address"
+        android:layout_height="wrap_content"
+       android:textColor="@color/testcolor"/>
+
+    <Button
+        android:id="@+id/btbn_sendPOST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:onClick="SENDpOST"
+        android:textSize="20dp"
+        android:text="Send by POST"/>
+
+    <Button
+
+        android:id="@+id/btbn_sendGET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:onClick="SendGet"
+        android:textSize="20dp"
+        android:text="Send by GET"/>
+
+    <TextView
+        android:id="@+id/tx_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+
+        />
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:onClick="NewxtAvtivity"
+        android:textSize="20dp"
+        android:text="Start RecyclerView"/>
+
+     <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:onClick="VideoStreeming"
+        android:textSize="20dp"
+        android:text="Start Video Streeming"/>
+
+    <Button
+        android:id="@+id/btn_speed_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:textSize="20dp"
+        android:text="Trans Quick"/>
+
+    <Button
+        android:id="@+id/btn_okhttp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/testcolor"
+        android:textSize="20dp"
+        android:text="OKHTTTP"/>
+
+     <Button
+            android:id="@+id/btn_downloadimge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/testcolor"
+            android:textSize="20dp"
+            android:text="image"/>
+
+
+</LinearLayout>
